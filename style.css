@@ -1,0 +1,12 @@
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+body{
+    color: blue;
+}
+
