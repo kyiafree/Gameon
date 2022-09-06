@@ -70,22 +70,22 @@ function getResults(){
     if (computerChoice === player1Choice){
         result = "It's a TIE!"
     }
-    if (computerChoice === 'rock'&& player1Choice === 'paper'){
+    if (computerChoice === 'rock'&& computerChoice === 'paper'){
         result = 'player1 wins'
     }
-    if (computerChoice === 'rock' && player1Choice === 'scissors'){
+    if (computerChoice === 'rock' && computerChoice === 'scissors'){
         result = 'computer wins'
     }
-    if (computerChoice === 'paper' && player1Choice === 'scissors'){
+    if (computerChoice === 'paper' && computerChoice === 'scissors'){
         result = 'player1 wins'
     }
-    if (computerChoice === 'paper' && player1Choice === 'rock'){
+    if (computerChoice === 'paper' && computerChoice === 'rock'){
         result = 'computer wins'
     }
-    if (computerChoice === 'scissors' && player1Choice === 'rock'){
+    if (computerChoice === 'scissors' && computerChoice === 'rock'){
         result = 'player1 wins'
     }
-    if (computerChoice === 'scissors' && player1Choice === 'paper'){
+    if (computerChoice === 'scissors' && computerChoice === 'paper'){
         result = 'computer wins'
     }
     resultDisplay.innerHTML = result
