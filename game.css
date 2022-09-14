@@ -1,4 +1,13 @@
 body{
     background-color: black;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    margin-top:200px;
+    height:200px;
+}
+.link{
     text-align: center;
+    height:150px;
 }
