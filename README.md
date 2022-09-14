@@ -1,1 +1,3 @@
 # Gameon
+
+Story : When playing Rock, Paper & Scissors the objective of the game is to pick between the 3 choices that will beat the other person's choice. For example, if you pick rock you will hope your opponent picks scissors because then you win! However, if you both pick rock then it will be a tie then you will go again. You can play this game for how many rounds you want.During the game each person that wins scores a point then the second player is able to go.On the scoreboard Player 1's score is on the left handside and Player 2's score is on the right handside. They alternate turns against the computer. There will be a reset button that will be available to press during the duration of either round if the game needs to be resetted./
